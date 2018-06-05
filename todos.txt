@@ -1,0 +1,3 @@
+0. loading animation for first time load 
+1. navigation bar
+2. contact me + email me
