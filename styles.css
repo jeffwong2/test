@@ -1,174 +1,98 @@
-body {
-  font-family: 'Raleway', sans-serif;
-  background-color: #edefee;
-  max-width: 100%;
-  overflow-x:hidden;
-  max-height: 100%;
-  min-width: 485px;
-  overflow-y:hidden;
-  /* transition: all 0.3s ease-in-out; */
-}
-
-.first-page {
-  /* background: url("assets/firstpage.jpg") no-repeat center fixed; */
-  height: 100vh;
-  width: 100vw;
-  min-width: 485px;
-}
-
-#bigNavBar {
-  /* background-color: #3ee899; */
-  /* background: linear-gradient(to right,#5bd89e,#3ee899); */
-  background: linear-gradient(to right,#354060,#2d3149);
-  /* background: linear-gradient(to right,red,yellow); */
-  min-height: 72px;
-}
-
-.right-nav {
-  transition: all .2s ease-in-out;
-}
-.right-nav:hover {
-  transform: scale(1.1);
-}
-.navbar-toggle {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #edefee;
-  transition: all .2s ease-in-out;
-}
-.navbar-toggle:hover {
-  transform: scale(1.1);
-  /* transition: all .2s ease-in-out; */
-  background-color: transparent;
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: transparent;
+html, body {
+  height: 100%;
   transition: all .3s ease-in-out;
+  /* overflow: hidden; */
+  font-family: 'Roboto', sans-serif;
+
 }
 
-.hs {
-  width: 250px;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
+
+#headshot {
   border-radius: 50%;
-  margin: auto auto;
-  margin-top: 125px;
-  border-style: solid;
-  /* background: url('assets/IMG_0850.JPG') no-repeat; */
-  /* border-style: none; */
   border-width: 2px;
-  border-color: #2d3149;
-}
-.hs img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity .4s ease-in-out;
-  -moz-transition: opacity .4s ease-in-out;
-  -o-transition: opacity .4s ease-in-out;
-  transition: opacity .4s ease-in-out;
-}
-.hs img.headshot:hover {
-  opacity:0;
+  border-color: black;
+  border-style: inset;
 }
 
-.headshot {
-  display: block;
-  margin: 0 auto;
-  margin-left: -18%;
-  height: 100%;
-  width: auto;
-  /* transition: all .3s ease-in-out; */
+#nav {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-.headshot2 {
-  display: block;
-  margin: 0 auto;
-  margin-left: -18%;
-  height: 100%;
-  width: auto;
-  transition: all .3s ease-in-out;
-}
-/* .headshot2, .hs:hover .headshot {
-  display: none;
-  filter: brightness(90%);
-}
-.headshot, .hs:hover .headshot2 {
-  display: block;
-} */
 
-.links {
-  text-align: center;
-  width: 250px;
-  margin-top: 10px;
-  border-top-style: dotted;
-  border-bottom-style: dotted;
-  border-width: 1.5px;
-  transition: all .3s ease-in-out;
+#hs {
+  margin-top: 5px;
 }
+
+#lm {
+  border-radius: 15%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons {
+  font-size: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
 #resume {
   color: coral;
   transition: all .3s ease-in-out;
 }
-#git {
+#github {
   color: #6e5494;
   transition: all .3s ease-in-out;
+
 }
 #linkedin {
   color: #0077b5;
   transition: all .3s ease-in-out;
+
 }
-#mail {
+#email {
   color: #354060;
   transition: all .3s ease-in-out;
 }
-.ilink {
-  margin: 15px 17px;
+#skills {
+  color: green;
+  transition: all .3s ease-in-out;
 }
-.ilink:hover {
-  transform: scale(1.2);
-  filter: brightness(85%);
-  /* opacity: 0.75; */
-}
-.frontpage {
-  position: relative;
-  text-align: center;
+
+.wrapdrop {
+  padding: 15px;
   margin: auto auto;
-  width: 50%;
-  font-family: 'Rubik';
+  width: 33%;
+  font-size: 24px;
+  text-align: center;
 }
 
-h2 {
-  padding-bottom: 5px;
+i:hover {
+  transform:scale(1.2);
+  filter:brightness(85%);
 }
 
-.cu {
-  display: inline-block;
-  /* width: 5px;
-  height: 5px; */
+.intro {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-#cs {
-  margin-left: -22px;
-  padding-right: 6px;
-  color: slateblue;
+.stats {
+  width: 450px;
+  margin: auto auto;
 }
 
-#heart {
-  margin-left: -22px;
-  padding-left: 35px;
-  padding-right: 8px;
-  color: crimson;
+p {
+  font-size: 20px;
 }
 
-#lm {
-  color: #354060;
-  margin-left: 14px;
-  margin-right: 6px;
-}
-#net {
-  color: #354060;
-  margin-right: 6px;
-  margin-left: -43px;
+.links {
+  color:#34495e;
 }
