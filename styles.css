@@ -6,6 +6,30 @@ html, body {
 
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 7.5px;
+  }
+  p {
+    font-size: 5px;
+  }
+}
+
 
 #headshot {
   border-radius: 50%;
@@ -85,7 +109,7 @@ i:hover {
 }
 
 .stats {
-  width: 450px;
+  width: 40%;
   margin: auto auto;
 }
 
