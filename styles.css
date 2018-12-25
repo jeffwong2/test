@@ -30,6 +30,14 @@ html, body {
   }
 }
 
+.navbar-toggler {
+  border-width: 0px;
+  background-color: white;
+}
+.navbar-toggler:hover {
+  background-color: white !important;
+  background-image: none !important;
+}
 
 #headshot {
   border-radius: 50%;
