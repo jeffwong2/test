@@ -20,10 +20,10 @@ function type2() {
   setTimeout(type2, speed);
 }
 
-var width = document.body.clientWidth;
-if (width <= 750) {
-  document.getElementsByClassName('.stats').width = 60%;
-}
+// var width = document.body.clientWidth;
+// if (width <= 750) {
+//   document.getElementsByClassName('.stats').width = 60%;
+// }
 
 document.getElementById("typewriter1").innerHTML = "";
 document.getElementById("typewriter1").style.color = "black";
