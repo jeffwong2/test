@@ -35,14 +35,14 @@ setTimeout(function() {
     document.getElementById("typewriter2").style.color = "black";
     type2();
   }
-}, 1500);
-setTimeout(function() {
-  var len = document.getElementById("typewriter2").innerHTML.length;
-  if (len == text2.length) {
-    document.getElementById("typewriter2").style.color = "orange";
-    document.getElementById("typewriter2").innerHTML += "_";
-  }
-}, 6000);
+}, 2000);
+// setTimeout(function() {
+//   var len = document.getElementById("typewriter2").innerHTML.length;
+//   if (len == text2.length) {
+//     document.getElementById("typewriter2").style.color = "orange";
+//     document.getElementById("typewriter2").innerHTML += "_";
+//   }
+// }, 6000);
 // setTimeout(function() {
 //   var len = document.getElementById("typewriter2").innerHTML.length;
 //   if (len == text2.length) {
