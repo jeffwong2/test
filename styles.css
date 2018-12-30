@@ -1,7 +1,8 @@
 html, body {
   height: 100%;
   transition: all .3s ease-in-out;
-  /* overflow: hidden; */
+  overflow-x: hidden;
+  max-width: 100%;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -93,12 +94,14 @@ i:hover {
 }
 
 .stats {
-  width: 450px;
+  /* width: 450px; */
+  width: 51.5vh;
   margin: auto auto;
 }
 
 p {
-  font-size: 20px;
+  font-size: 2.25vh;
+  /* margin: auto auto; */
 }
 
 .links {
