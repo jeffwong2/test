@@ -2,8 +2,10 @@ html, body {
   height: 100%;
   transition: all .3s ease-in-out;
   overflow-x: hidden;
+  overflow-y: scroll;
   max-width: 100%;
   font-family: 'Roboto', sans-serif;
+  -webkit-overflow-scrolling: touch;
 
 }
 
